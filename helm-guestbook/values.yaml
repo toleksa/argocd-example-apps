@@ -19,8 +19,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   path: /
-  hosts:
-    - guestbook.kube.ac
+  hosts: guestbook.kube.ac
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
